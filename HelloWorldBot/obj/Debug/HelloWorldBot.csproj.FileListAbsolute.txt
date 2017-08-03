@@ -1,0 +1,40 @@
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Bot Application.dll.config
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Bot Application.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Bot Application.pdb
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Autofac.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Chronic.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Builder.Autofac.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Builder.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Connector.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Newtonsoft.Json.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Net.Http.Formatting.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Web.Http.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Web.Http.WebHost.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Autofac.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Builder.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Builder.Autofac.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.Bot.Connector.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\Newtonsoft.Json.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Net.Http.Formatting.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Web.Http.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\System.Web.Http.WebHost.xml
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\obj\Debug\HelloWorldBot.csprojResolveAssemblyReference.cache
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\obj\Debug\Bot Application.dll
+c:\users\kamran chaudhary\documents\visual studio 2015\Projects\HelloWorldBot\HelloWorldBot\obj\Debug\Bot Application.pdb
