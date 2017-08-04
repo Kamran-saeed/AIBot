@@ -6,6 +6,7 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using System;
 using System.Text;
+using System.Collections.Generic;
 
 namespace HelloWorldBot
 {
@@ -56,6 +57,13 @@ namespace HelloWorldBot
                     else // Name was provided
                     {
                         strReplyMessage.Append($"{strUserName}, You said: {activity.Text}");
+                    }
+
+                    if(activity.Text == "generic")
+                    {
+                        //List<CardAction> crdActions = new List<CardAction>();
+                        //List<CardImage> crdImages = new List<CardImage>();
+                        strReplyMessage.Append($"jaa bc");
                     }
                 }
                 // Save BotUserData
