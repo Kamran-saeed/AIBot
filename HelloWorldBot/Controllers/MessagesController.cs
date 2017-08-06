@@ -75,6 +75,8 @@ namespace HelloWorldBot
                         ContentType = "image/png",
                         Name = "Bender_Rodriguez.png"
                     });
+                    replyMessage.Speak = "This is the text that will be spoken.";
+                    replyMessage.InputHint = InputHints.AcceptingInput;
                 }
                 else if(activity.Text == "abdul karim")
                 {
@@ -112,7 +114,6 @@ namespace HelloWorldBot
                         Name = "Bender_Rodriguez.png"
                     });
                 }
-
                 await connector.Conversations.ReplyToActivityAsync(replyMessage);
             }
             else
