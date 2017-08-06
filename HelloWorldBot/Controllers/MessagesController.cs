@@ -51,13 +51,13 @@ namespace HelloWorldBot
                     {
                         // If we have asked for a username but it has not been set
                         // the current response is the user name
-                        strReplyMessage.Append($"Hello **{activity.Text}!**");
+                        strReplyMessage.Append($"Hello <b>{activity.Text}!</b>");
                         // Set BotUserData
                         userData.SetProperty<string>("UserName", activity.Text);
                     }
                     else // Name was provided
                     {
-                        strReplyMessage.Append($"**{strUserName}**, You said: {activity.Text}");
+                        strReplyMessage.Append($"<b>{strUserName}</b>, You said: {activity.Text}");
                     }
                 }
                 // Save BotUserData
