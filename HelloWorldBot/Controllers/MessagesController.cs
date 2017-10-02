@@ -35,7 +35,7 @@ namespace HelloWorldBot
                 StringBuilder strReplyMessage = new StringBuilder();
                 if (boolAskedForUserName == false) // Never asked for name
                 {
-                    strReplyMessage.Append($"Hello, I am Chat Bot");
+                    strReplyMessage.Append($"Hello, I am Bot");
                     strReplyMessage.Append($"\n");
                     strReplyMessage.Append($"You can say anything");
                     strReplyMessage.Append($"\n");
