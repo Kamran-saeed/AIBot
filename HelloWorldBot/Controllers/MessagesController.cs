@@ -67,49 +67,78 @@ namespace HelloWorldBot
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
                 Activity replyMessage = activity.CreateReply(strReplyMessage.ToString());
 
-                if (activity.Text == "adil")
+                if(activity.Text == "programming")
+                {
+                    replyMessage.AttachmentLayout = AttachmentLayoutTypes.List;
+                    replyMessage.Attachments = new List<Attachment>();
+
+                    Dictionary<string, string> cardContentList = new Dictionary<string, string>();
+                    cardContentList.Add("C++ 1", "https://img.wonderhowto.com/img/86/07/63568591614688/0/c-c-programming-for-hackers-part-1-introduction.1280x600.jpg");
+                    cardContentList.Add("C++ 2", "https://www.eduonix.com/blog/wp-content/uploads/2016/02/c-17-02.jpg");
+
+                    foreach (KeyValuePair<string, string> cardContent in cardContentList)
+                    {
+                        List<CardImage> cardImages = new List<CardImage>();
+                        cardImages.Add(new CardImage(url: cardContent.Value));
+
+                        List<CardAction> cardButtons = new List<CardAction>();
+
+                        CardAction plButton = new CardAction()
+                        {
+                            Value = $"https://en.wikipedia.org/wiki/{cardContent.Key}",
+                            Type = "openUrl",
+                            Title = "WikiPedia Page"
+                        };
+
+                        cardButtons.Add(plButton);
+
+                        ThumbnailCard plCard = new ThumbnailCard()
+                        {
+                            Title = $"I'm a thumbnail card about {cardContent.Key}",
+                            Subtitle = $"{cardContent.Key} Wikipedia Page",
+                            Images = cardImages,
+                            Buttons = cardButtons
+                        };
+
+                        Attachment plAttachment = plCard.ToAttachment();
+                        replyMessage.Attachments.Add(plAttachment);
+                    }
+                }
+
+                if (activity.Text == "faizan")
                 {
                     replyMessage.Attachments.Add(new Attachment()
                     {
-                        ContentUrl = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/18582305_1472101472854297_6702920825411222930_n.jpg?oh=ddb234e3ff5e5abc4ec9498b92e95173&oe=59EACA30",
+                        ContentUrl = "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.0-9/17351975_1121356034641436_9200264524077866380_n.jpg?oh=7f660947a9624b4d46508857c9bd4407&oe=5A7C9BD1",
                         ContentType = "image/png",
                         Name = "Bender_Rodriguez.png"
                     });
                     replyMessage.Speak = "This is the text that will be spoken.";
                     replyMessage.InputHint = InputHints.AcceptingInput;
                 }
-                else if(activity.Text == "abdul karim")
+                else if(activity.Text == "zeeshan")
                 {
                     replyMessage.Attachments.Add(new Attachment()
                     {
-                        ContentUrl = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/18698133_1828537310493504_577993740993653688_n.jpg?oh=becdfc1a250e8abad47cc975517b61e2&oe=59FC2DBC",
+                        ContentUrl = "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.0-1/17634668_1195266220596549_4819124406029091190_n.jpg?oh=7d2c152d70420fb85040d83503f9b68c&oe=5A8719AC",
                         ContentType = "image/png",
                         Name = "Bender_Rodriguez.png"
                     });
                 }
-                else if(activity.Text == "abdul hanan")
+                else if(activity.Text == "salman")
                 {
                     replyMessage.Attachments.Add(new Attachment()
                     {
-                        ContentUrl = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/14369870_683436315146860_453917732903214659_n.jpg?oh=aef253fdae006076b361fcd60836bc8c&oe=5A27FCF1",
+                        ContentUrl = "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.0-9/20374476_1400090800081877_9126365518091107248_n.jpg?oh=66bd0d481a409745b14105b3eeb9117e&oe=5A5070F6",
                         ContentType = "image/png",
                         Name = "Bender_Rodriguez.png"
                     });
                 }
-                else if(activity.Text == "fasih haider")
+                else if(activity.Text == "kamran")
                 {
                     replyMessage.Attachments.Add(new Attachment()
                     {
-                        ContentUrl = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/15781407_1053655681412609_5793125683587162591_n.jpg?oh=2099fef0e1d72a2963d4aa2055ac9ce0&oe=5A264125",
-                        ContentType = "image/png",
-                        Name = "Bender_Rodriguez.png"
-                    });
-                }
-                else if(activity.Text == "shaheryar imtiaz")
-                {
-                    replyMessage.Attachments.Add(new Attachment()
-                    {
-                        ContentUrl = "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/14485125_530572040470935_4023836458597440650_n.jpg?oh=1705bf2b82143e039cec73f0a7f83e76&oe=59F69C45",
+                        ContentUrl = "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.0-9/17796070_1661165427227260_7279774805161231363_n.jpg?oh=59a6973ed4d03bde74a9933210482526&oe=5A3A93AB",
                         ContentType = "image/png",
                         Name = "Bender_Rodriguez.png"
                     });
